@@ -23,26 +23,26 @@ import NameSwitcher from './components/NameSwitcher';
 function App() {
   return (
     <div className="App">
-      {/* <ul style={{ listStyle: 'none'}}>
+      <ul style={{ listStyle: 'none'}}>
         <li><Link to='/application'>Aplication</Link></li>
         <li><Link to='/counter'> Counter</Link></li>
-      </ul> */}
+      </ul>
 
 
       
-      {/* <Routes>
+      <Routes>
    <Route path ='/counter' element={<Counter/>}/>
    <Route path ='/boolean-toggle' element={<BooleanToggle/>}/>
    <Route path = '/click-counter' element={<ClickCounter/>}/>
    <Route path = '/button' element={<Button/>}/>
    <Route path ='/color-switcher' element={<ColorSwitcher/>}/>
-   <Route path ='/even-odd-checker' element={<EvenOddChecker/>}/>
+  //  <Route path ='/even-odd-checker' element={<EvenOddChecker/>}/>
    <Route path = '/hello' element={<Hello/>}/>
    <Route path = '/name-switcher' element={<NameSwitcher/>}/>
 
 
   
-// </Routes> */}
+// </Routes>
 
       
    
