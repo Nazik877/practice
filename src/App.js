@@ -13,6 +13,7 @@ import ColorSwitcher from './components/ColorSwitcher'
 import EvenOddChecker from './components/EvenOddChecker';
 import Hello from './components/Hello';
 import NameSwitcher from './components/NameSwitcher';
+import GoodBuy from './components/GoodBuy';
 
 
 
@@ -23,25 +24,25 @@ import NameSwitcher from './components/NameSwitcher';
 
 function App() {
   return (
-    <div className="App">
-      <ul style={{ listStyle: 'none'}}>
-        <li><Link to='/application'>Aplication</Link></li>
-        <li><Link to='/counter'> Counter</Link></li>
-      </ul>
+    // <div className="App">
+    //   <ul style={{ listStyle: 'none'}}>
+    //     <li><Link to='/application'>Aplication</Link></li>
+    //     <li><Link to='/counter'> Counter</Link></li>
+    //   </ul>
 
-
+<GoodBuy/>
       
-      <Routes>
-   <Route path ='/counter' element={<Counter/>}/>
-  <Route path ='/toggle' element={<Toggle/>}/>
+//       <Routes>
+//    <Route path ='/counter' element={<Counter/>}/>
+//   <Route path ='/toggle' element={<Toggle/>}/>
 
 
   
-// </Routes>
+// // </Routes>
 
       
    
-    </div>
+    // </div>
   );
 }
 

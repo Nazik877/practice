@@ -1,15 +1,15 @@
-import {useState} from "react";
+// import {useState} from "react";
 
-export const useTimer = () => {
-    const [timer, setTimer] = useState()
+// export const useTimer = () => {
+//     const [timer, setTimer] = useState()
 
-    function getTime(){
-        let date = new Date()
-        return date.toLocaleString()
-    }
+//     function getTime(){
+//         let date = new Date()
+//         return date.toLocaleString()
+//     }
 
-    setInterval(() => {
-        setTimer(getTime())
-    },1000)
-    return timer
-}
+//     setInterval(() => {
+//         setTimer(getTime())
+//     },1000)
+//     return timer
+// }
